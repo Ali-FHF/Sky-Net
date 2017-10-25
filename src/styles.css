@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+html, body, .container {
+    height: 100%;
+}
+
+
+
+.loan-header h1 {
+color: #fff; 
+font-family: 'Raleway', sans-serif;
+
+}
+
+.loan-header {
+
+height: 150px; 
+background-color: #000; 
+display: -webkit-flexbox;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.loancontainer {
+
+display: -webkit-flexbox;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+justify-content: center;
+
+min-height: 300px; 
+background-color: #cccccc; 
+
+}
+
+.flex-grid {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+
+}
+.col {
+  flex: 1;
+}
+
+.feature-flex-item {
+
+ text-align: center;
+}
+
